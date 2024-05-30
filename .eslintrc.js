@@ -16,4 +16,5 @@ module.exports = {
     'prefer-const': 'error',
     'react-hooks/exhaustive-deps': 'error',
   },
+  ignorePatterns: ['@types/utils.d.ts'],
 };
