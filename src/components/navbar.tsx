@@ -1,17 +1,17 @@
 import { routes } from '@/utils/routes';
 import Link from 'next/link';
-import { Logo } from './icon/logo';
+import { LogoNavbar } from './icon/logoNavbar';
 
 export function Navbar() {
   return (
     <div className="flex justify-around items-center py-2 border-b">
       <div className="flex gap-10 items-center">
-        <Logo />
+        <LogoNavbar />
       </div>
       <div className="flex gap-20">
         {routes.map((item) => (
           <Link
-            className="text-lg text-white hover:text-[#00667F] hover:underline duration-300"
+            className="text-lg font-medium hover:text-[#00667F] hover:underline duration-300"
             key={item.id}
             href={item.reference}
           >
