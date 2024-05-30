@@ -12,3 +12,16 @@ body {
     text-wrap: balance;
   }
 }
+
+::-webkit-scrollbar {
+  @apply h-1.5 w-1.5;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded-lg bg-black/40 transition-colors;
+}
+
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  @apply bg-black/60;
+}
