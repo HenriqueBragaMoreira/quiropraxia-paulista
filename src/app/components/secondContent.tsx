@@ -1,6 +1,6 @@
 export function SecondContent() {
   return (
-    <div className="h-screen">
+    <div id="second-content" className="h-screen">
       <h1>SECOND</h1>
     </div>
   );

@@ -1,6 +1,6 @@
 export function FourthContent() {
   return (
-    <div className="h-screen">
+    <div id="fourth-content" className="h-screen">
       <h1>FOURTH</h1>
     </div>
   );
