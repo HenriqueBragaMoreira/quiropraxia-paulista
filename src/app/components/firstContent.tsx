@@ -12,14 +12,14 @@ import { MapPin } from 'lucide-react';
 export function FirstContent() {
   return (
     <div id="first-content" className="flex flex-col h-screen">
-      <NavbarAnimation>
-        <NavbarContainer />
-      </NavbarAnimation>
       <div className="flex-1 flex flex-col lg:flex-row justify-around items-center px-10">
+        <NavbarAnimation>
+          <NavbarContainer />
+        </NavbarAnimation>
         <MainTextAnimation>
-          <div className="flex flex-col gap-4 lg:gap-6">
+          <div className="flex flex-col gap-4 lg:gap-6 mt-[77px]">
             <div>
-              <h1 className="text-3xl md:text-5xl font-bold max-w-[40rem]">
+              <h1 className="text-3xl md:text-5xl font-bold max-w-[35rem]">
                 Descubra o conforto e a excelência da nossa clínica de quiropraxia!
               </h1>
             </div>
