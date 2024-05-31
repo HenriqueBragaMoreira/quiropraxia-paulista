@@ -6,14 +6,14 @@ import {
 } from '@/components/animation';
 import { Facebook, Instagram, Tiktok, Youtube } from '@/components/icon/brands/index';
 import { Logo } from '@/components/icon/logo';
-import { Navbar } from '@/components/navbar';
+import { NavbarContainer } from '@/components/navbar/navbarContainer';
 import { MapPin } from 'lucide-react';
 
 export function FirstContent() {
   return (
     <div id="first-content" className="flex flex-col h-screen">
       <NavbarAnimation>
-        <Navbar />
+        <NavbarContainer />
       </NavbarAnimation>
       <div className="flex-1 flex justify-around items-center px-10">
         <MainTextAnimation>
@@ -32,16 +32,18 @@ export function FirstContent() {
             </div>
             <div className="flex gap-10">
               <a
-                href="https://wa.me/5511911050123?text=Olá,%20vim%20pelo%20site%20e%20quero%20marcar%20uma%20consulta!"
+                href="https://www.google.com/maps/place/Quiropraxia+Paulista/@-23.568756,-46.6466063,15z/data=!4m2!3m1!1s0x0:0xe8978281b9c690cb?sa=X&ved=1t:2428&ictx=111&cshid=1717100540001437"
                 target="_blank"
-                className="flex gap-2 bg-[#00667F] px-4 py-2 rounded-lg items-center cursor-pointer hover:bg-[#00667F]/70">
+                className="flex gap-2 bg-[#00667F] px-4 py-2 rounded-lg items-center cursor-pointer hover:bg-[#00667F]/70"
+              >
                 <MapPin />
                 <h2 className="text-lg font-bold">Av. Paulista, 326</h2>
               </a>
               <a
-                href=""
+                href="https://www.google.com/maps/place/Quiropraxia+Paulista+-+Unidade+Pinheiros/@-23.5685772,-46.6985022,15z/data=!4m6!3m5!1s0x94ce57ce8381b367:0x1c57487f9bc0876c!8m2!3d-23.5685772!4d-46.6985022!16s%2Fg%2F11v05xv1gj?entry=ttu"
                 target="_blank"
-                className="flex gap-2 bg-[#00667F] px-4 py-2 rounded-lg items-center cursor-pointer hover:bg-[#00667F]/70">
+                className="flex gap-2 bg-[#00667F] px-4 py-2 rounded-lg items-center cursor-pointer hover:bg-[#00667F]/70"
+              >
                 <MapPin />
                 <h2 className="text-lg font-bold">Rua Pais Leme, 215</h2>
               </a>
@@ -58,25 +60,29 @@ export function FirstContent() {
               <a
                 href="https://www.instagram.com/quiropraxiapaulista/"
                 className="transition duration-300 ease-in-out hover:scale-[1.2]"
-                target="_blank">
+                target="_blank"
+              >
                 <Instagram />
               </a>
               <a
                 href="https://www.facebook.com/quiropraxiapaulista/"
                 className="transition duration-300 ease-in-out hover:scale-[1.2]"
-                target="_blank">
+                target="_blank"
+              >
                 <Facebook />
               </a>
               <a
                 href="https://www.youtube.com/@quiropraxiapaulista"
                 className="transition duration-300 ease-in-out hover:scale-[1.2]"
-                target="_blank">
+                target="_blank"
+              >
                 <Youtube />
               </a>
               <a
                 href="https://www.tiktok.com/@quiropraxiapaulista?lang=pt-BR"
                 className="transition duration-300 ease-in-out hover:scale-[1.2]"
-                target="_blank">
+                target="_blank"
+              >
                 <Tiktok />
               </a>
             </div>
