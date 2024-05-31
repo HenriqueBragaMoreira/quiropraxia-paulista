@@ -28,12 +28,19 @@ const config = {
           to: { height: '0' },
         },
       },
+      fontFamily: {
+        Poppins: ['Poppins', 'sans-serif'],
+      },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
+      screens: {
+        '3xl': '1920px',
+      },
     },
   },
+
   plugins: [require('tailwindcss-animate')],
 } satisfies Config;
 

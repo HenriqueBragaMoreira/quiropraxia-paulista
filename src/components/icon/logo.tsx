@@ -3,8 +3,7 @@ import { ComponentPropsWithoutRef } from 'react';
 export function Logo(props: ComponentPropsWithoutRef<'svg'>) {
   return (
     <svg
-      width={565}
-      height={311}
+      width={300}
       viewBox="0 0 565 311"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

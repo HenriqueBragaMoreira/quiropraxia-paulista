@@ -6,7 +6,7 @@ export function WhatsappButton() {
     <Popover>
       <PopoverTrigger asChild>
         <button
-          className="fixed bottom-8 right-16 bg-white rounded-full p-4 hover:bg-white/60 ease-in duration-200"
+          className="fixed bottom-8 right-[50px] bg-white rounded-full p-4 hover:bg-white/60 ease-in duration-200"
           title="Link para o whatsapp da clínica"
         >
           <Whatsapp />
