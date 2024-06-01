@@ -11,8 +11,8 @@ import { MapPin } from 'lucide-react';
 
 export function FirstContent() {
   return (
-    <div id="first-content" className="flex flex-col h-screen">
-      <div className="flex-1 flex flex-col lg:flex-row justify-around items-center px-10">
+    <div id="first-content" className="flex flex-col md:h-screen">
+      <div className="flex-1 flex flex-col lg:flex-row justify-around items-center px-10 gap-10 md:gap-0">
         <NavbarAnimation>
           <NavbarContainer />
         </NavbarAnimation>
