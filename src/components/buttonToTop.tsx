@@ -30,7 +30,7 @@ export function ButtonToTop() {
 
   return (
     <button
-      className={`fixed bottom-[116px] right-[50px] bg-white rounded-full p-4 hover:bg-white/60 ease-in duration-200 transition-opacity ${
+      className={`fixed bottom-[116px] right-[16px] md:right-12 bg-white rounded-full p-4 hover:bg-white/60 ease-in duration-200 transition-opacity ${
         visible ? 'opacity-100' : 'opacity-0'
       }`}
       onClick={() => scrollToTop()}
