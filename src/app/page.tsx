@@ -1,3 +1,4 @@
+import { ButtonToTop } from '@/components/buttonToTop';
 import { WhatsappButton } from '@/components/whatsappButton';
 import { FifthContent } from './components/fifthContent';
 import { FirstContent } from './components/firstContent';
@@ -13,6 +14,7 @@ export default function Home() {
       <ThirdContent />
       <FourthContent />
       <FifthContent />
+      <ButtonToTop />
       <WhatsappButton />
     </div>
   );
