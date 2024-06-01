@@ -20,6 +20,10 @@ a {
   @apply font-Poppins;
 }
 
+span {
+  @apply font-Poppins;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
