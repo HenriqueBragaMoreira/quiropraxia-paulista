@@ -1,4 +1,5 @@
 import '@/styles/globals.css';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
@@ -23,7 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html className="scroll-smooth" lang="pt-BR" suppressHydrationWarning>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
