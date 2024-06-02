@@ -1,3 +1,6 @@
+import { InfiniteMovingCards } from '@/components/ui/infinite-moving-cards';
+import { testimonials } from '@/utils/testimonials';
+
 export function ThirdContent() {
   return (
     <div id="third-content" className="md:h-screen pt-20 md:pt-[88px]">
@@ -13,8 +16,14 @@ export function ThirdContent() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="flex flex-col w-full gap-6 items-center">
           <h2 className="text-3xl md:text-5xl font-bold text-center">Feedback dos Pacientes</h2>
+          <InfiniteMovingCards
+            className="w-full"
+            items={testimonials}
+            direction="right"
+            speed="slow"
+          />
         </div>
       </div>
     </div>
