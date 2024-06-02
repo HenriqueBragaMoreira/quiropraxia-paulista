@@ -4,7 +4,7 @@ export function SecondContent() {
       id="second-content"
       className="md:h-screen mt-20 pt-20 md:mt-0 md:pt-[88px] bg-[#00667F]/20"
     >
-      <div className="flex flex-col items-center gap-2 md:gap-8 px-3 md:px-10  py-6">
+      <div className="flex flex-col items-center gap-2 md:gap-8 px-3 md:px-10 py-6">
         <h2 className="text-3xl md:text-5xl font-bold">Quem Somos</h2>
         <div className="flex flex-col gap-4 text-sm md:text-lg text-center">
           <span>

@@ -6,12 +6,12 @@ export const routes = [
   },
   {
     id: 2,
-    name: 'Conceitos da Quiropraxia',
+    name: 'Tratamentos',
     reference: '#third-content',
   },
   {
     id: 3,
-    name: 'Tratamentos',
+    name: 'Conceitos da Quiropraxia',
     reference: '#fourth-content',
   },
   {
