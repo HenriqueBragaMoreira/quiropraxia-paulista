@@ -1,4 +1,5 @@
 import { ButtonToTop } from '@/components/buttonToTop';
+import { Footer } from '@/components/footer';
 import { WhatsappButton } from '@/components/whatsappButton';
 import { FifthContent } from './components/fifthContent';
 import { FirstContent } from './components/firstContent';
@@ -15,6 +16,7 @@ export default function Home() {
       <FifthContent />
       <ButtonToTop />
       <WhatsappButton />
+      <Footer />
     </div>
   );
 }
