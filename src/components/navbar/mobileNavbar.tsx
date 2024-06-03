@@ -15,7 +15,7 @@ export function MobileNavbar() {
 
   return (
     <Sheet>
-      <SheetTrigger className="lg:hidden">
+      <SheetTrigger title="Menu hambúrguer" className="lg:hidden">
         <Menu size={32} />
       </SheetTrigger>
       <SheetContent className="flex flex-col justify-between bg-[#adc2c6] border-l-0">

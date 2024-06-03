@@ -3,7 +3,7 @@ import { testimonials } from '@/utils/testimonials';
 
 export function ThirdContent() {
   return (
-    <div id="third-content" className="2xl:h-screen pt-20 md:pt-[88px]">
+    <div id="third-content" className="3xl:h-screen pt-20 md:pt-[88px]">
       <div className="flex flex-col gap-10 px-3 md:px-10">
         <div className="space-y-6">
           <h2 className="text-3xl md:text-5xl font-bold text-center">Nossos Tratamentos</h2>
