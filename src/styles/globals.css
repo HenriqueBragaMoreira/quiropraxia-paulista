@@ -24,6 +24,22 @@ span {
   @apply font-Poppins;
 }
 
+.perspective {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.transform-style {
+  transform-style: preserve-3d;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
