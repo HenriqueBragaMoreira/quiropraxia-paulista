@@ -45,10 +45,6 @@ export function ThirdContent() {
                   <div className="flex flex-col gap-2">
                     <div className="flex gap-4 justify-center items-center">
                       <Check size={18} />
-                      <span className="text-xs">Avaliação Gratuita!</span>
-                    </div>
-                    <div className="flex gap-4 justify-center items-center">
-                      <Check size={18} />
                       <span className="text-xs">Tratamento Personlizado!</span>
                     </div>
                     <div className="flex gap-4 justify-center items-center">
@@ -91,10 +87,6 @@ export function ThirdContent() {
                     <div />
                   </div>
                   <div className="flex flex-col gap-2">
-                    <div className="flex gap-4 justify-center items-center">
-                      <Check size={18} />
-                      <span className="text-xs">Avaliação Gratuita!</span>
-                    </div>
                     <div className="flex gap-4 justify-center items-center">
                       <Check size={18} />
                       <span className="text-xs">Tratamento Personlizado!</span>
@@ -140,10 +132,6 @@ export function ThirdContent() {
                   <div className="flex flex-col gap-2">
                     <div className="flex gap-4 justify-center items-center">
                       <Check size={18} />
-                      <span className="text-xs">Avaliação Gratuita!</span>
-                    </div>
-                    <div className="flex gap-4 justify-center items-center">
-                      <Check size={18} />
                       <span className="text-xs">Tratamento Personlizado!</span>
                     </div>
                     <div className="flex gap-4 justify-center items-center">
@@ -185,10 +173,6 @@ export function ThirdContent() {
                     <div />
                   </div>
                   <div className="flex flex-col gap-2">
-                    <div className="flex gap-4 justify-center items-center">
-                      <Check size={18} />
-                      <span className="text-xs">Avaliação Gratuita!</span>
-                    </div>
                     <div className="flex gap-4 justify-center items-center">
                       <Check size={18} />
                       <span className="text-xs">Tratamento Personlizado!</span>

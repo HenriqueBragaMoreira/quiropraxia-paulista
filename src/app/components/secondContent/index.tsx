@@ -18,13 +18,13 @@ export function SecondContent() {
               objetivo é otimizar o funcionamento do corpo para melhor qualidade de vida.
             </span>
             <span>
-              Somos uma das maiores redes de clínicas de Quiropraxia em SP, oferecendo tratamento
-              acessível e centrado no paciente, nossa abordagem única visa alívio da dor e cuidados
-              preventivos.
+              Somos uma das maiores redes de clínicas de Quiropraxia da América Latina, oferecendo
+              tratamento acessível e centrado no paciente, nossa abordagem única visa alívio da dor
+              e cuidados preventivos.
             </span>
             <span>
-              Como uma empresa familiar, nos dedicamos à saúde e qualidade de vida dos pacientes,
-              proporcionando excelência e cuidado personalizado.
+              Nos dedicamos à saúde e qualidade de vida dos pacientes, proporcionando excelência e
+              cuidado personalizado.
             </span>
             <span>Venha descobrir uma nova forma de viver sem dor conosco. 😉</span>
           </div>
