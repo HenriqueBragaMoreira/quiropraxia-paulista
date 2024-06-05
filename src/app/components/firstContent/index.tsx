@@ -1,13 +1,8 @@
-import {
-  LogoAnimation,
-  MainTextAnimation,
-  NavbarAnimation,
-  NetworkAnimation,
-} from '@/components/animation';
 import { Facebook, Instagram, Tiktok, Youtube } from '@/components/icon/brands/index';
 import { Logo } from '@/components/icon/logo';
 import { NavbarContainer } from '@/components/navbar/navbarContainer';
 import { MapPin } from 'lucide-react';
+import { LogoAnimation, MainTextAnimation, NavbarAnimation, NetworkAnimation } from './animation';
 
 export function FirstContent() {
   return (

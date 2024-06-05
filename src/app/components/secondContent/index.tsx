@@ -1,4 +1,4 @@
-import { WhileImageInViewAnimation, WhileInViewAnimation } from '@/components/animation';
+import { WhileImageInViewAnimation, WhileInViewAnimation } from './animation';
 
 export function SecondContent() {
   return (

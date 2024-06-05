@@ -1,8 +1,8 @@
 import { ButtonToTop } from '@/components/buttonToTop';
 import { Footer } from '@/components/footer';
 import { WhatsappButton } from '@/components/whatsappButton';
-import { FifthContent } from './components/fifthContent';
 import { FirstContent } from './components/firstContent';
+import { FourthContent } from './components/fourthContent';
 import { SecondContent } from './components/secondContent';
 import { ThirdContent } from './components/thirdContent';
 
@@ -12,8 +12,7 @@ export default function Home() {
       <FirstContent />
       <SecondContent />
       <ThirdContent />
-      {/* <FourthContent /> */}
-      <FifthContent />
+      <FourthContent />
       <ButtonToTop />
       <WhatsappButton />
       <Footer />
