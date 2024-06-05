@@ -5,7 +5,7 @@ export function SecondContent() {
   return (
     <div
       id="second-content"
-      className="3xl:h-screen 2xl:h-screen mt-20 pt-20 md:mt-0 md:pt-[88px] bg-[#00667F]/20"
+      className="3xl:h-screen [@media(min-height:935px)]:h-screen mt-20 pt-20 md:mt-0 md:pt-[88px] bg-[#00667F]/20"
     >
       <div className="flex flex-col items-center gap-2 md:gap-8 px-3 md:px-10 py-6">
         <WhileInViewAnimation>
