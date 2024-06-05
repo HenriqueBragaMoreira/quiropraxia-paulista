@@ -1,4 +1,5 @@
 import { FlippingCard } from '@/components/flipCard';
+import { Whatsapp } from '@/components/icon/brands';
 import { Button } from '@/components/ui/button';
 import { InfiniteMovingCards } from '@/components/ui/infinite-moving-cards';
 import { testimonials } from '@/utils/testimonials';
@@ -36,13 +37,13 @@ export function ThirdContent() {
                 </div>
               }
               backContent={
-                <div className="flex flex-col gap-2 lg:gap-4 h-full w-full bg-[#154359] rounded-lg shadow-2xl py-6 px-5 border-[4px] border-white">
+                <div className="flex flex-col gap-1 lg:gap-3 h-full w-full bg-[#154359] rounded-lg shadow-2xl py-6 px-5 border-[4px] border-white">
                   <div className="flex justify-between w-full">
                     <ChevronLeft name="Icone para voltar" className="cursor-pointer" />
                     <span>Preços</span>
                     <div />
                   </div>
-                  <div className="flex flex-col gap-2">
+                  <div className="flex flex-col gap-1 lg:gap-2">
                     <div className="flex gap-4 justify-center items-center">
                       <Check size={18} />
                       <span className="text-xs">Tratamento Personlizado!</span>
@@ -57,6 +58,14 @@ export function ThirdContent() {
                     <span>ou</span>
                     <span>4x de R$200,00</span>
                   </div>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=5511911050123&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20quero%20adquirir%20aqui%20com%20voc%C3%AAs%C2%A0o%C2%A0plano%C2%A05!"
+                    target="_blank"
+                    className="flex justify-around text-xs lg:text-sm font-semibold text-center mt-1 lg:mt-0 py-1 lg:py-2 bg-white hover:bg-white/80 text-black rounded-lg items-center cursor-pointer"
+                  >
+                    <Whatsapp className="size-5" />
+                    Adquira agora!
+                  </a>
                 </div>
               }
             />
@@ -80,13 +89,13 @@ export function ThirdContent() {
                 </div>
               }
               backContent={
-                <div className="flex flex-col gap-2 lg:gap-4 h-full w-full bg-[#154359] rounded-lg shadow-2xl py-6 px-5 border-[4px] border-white">
+                <div className="flex flex-col gap-1 lg:gap-3 h-full w-full bg-[#154359] rounded-lg shadow-2xl py-6 px-5 border-[4px] border-white">
                   <div className="flex justify-between w-full">
                     <ChevronLeft name="Icone para voltar" className="cursor-pointer" />
                     <span>Preços</span>
                     <div />
                   </div>
-                  <div className="flex flex-col gap-2">
+                  <div className="flex flex-col gap-1 lg:gap-2">
                     <div className="flex gap-4 justify-center items-center">
                       <Check size={18} />
                       <span className="text-xs">Tratamento Personlizado!</span>
@@ -101,6 +110,14 @@ export function ThirdContent() {
                     <span>ou</span>
                     <span>6x de R$250,00</span>
                   </div>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=5511911050123&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20quero%20adquirir%20aqui%20com%20voc%C3%AAs%C2%A0o%C2%A0plano%C2%A010!"
+                    target="_blank"
+                    className="flex justify-around text-xs lg:text-sm font-semibold text-center mt-1 lg:mt-0 py-1 lg:py-2 bg-white text-black rounded-lg items-center cursor-pointer"
+                  >
+                    <Whatsapp className="size-5" />
+                    Adquira agora!
+                  </a>
                 </div>
               }
             />
@@ -123,13 +140,13 @@ export function ThirdContent() {
                 </div>
               }
               backContent={
-                <div className="flex flex-col gap-2 lg:gap-4 h-full w-full bg-[#154359] rounded-lg shadow-2xl py-6 px-5 border-[4px] border-white">
+                <div className="flex flex-col gap-1 lg:gap-3 h-full w-full bg-[#154359] rounded-lg shadow-2xl py-6 px-5 border-[4px] border-white">
                   <div className="flex justify-between w-full">
                     <ChevronLeft name="Icone para voltar" className="cursor-pointer" />
                     <span>Preços</span>
                     <div />
                   </div>
-                  <div className="flex flex-col gap-2">
+                  <div className="flex flex-col gap-1 lg:gap-2">
                     <div className="flex gap-4 justify-center items-center">
                       <Check size={18} />
                       <span className="text-xs">Tratamento Personlizado!</span>
@@ -144,6 +161,14 @@ export function ThirdContent() {
                     <span>ou</span>
                     <span>6x de R$350,00</span>
                   </div>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=5511911050123&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20quero%20adquirir%20aqui%20com%20voc%C3%AAs%C2%A0o%C2%A0plano%C2%A015!"
+                    target="_blank"
+                    className="flex justify-around text-xs lg:text-sm font-semibold text-center mt-1 lg:mt-0 py-1 lg:py-2 bg-white text-black rounded-lg items-center cursor-pointer"
+                  >
+                    <Whatsapp className="size-5" />
+                    Adquira agora!
+                  </a>
                 </div>
               }
             />
@@ -166,13 +191,13 @@ export function ThirdContent() {
                 </div>
               }
               backContent={
-                <div className="flex flex-col gap-2 lg:gap-4 h-full w-full bg-[#154359] rounded-lg shadow-2xl py-6 px-5 border-[4px] border-white">
+                <div className="flex flex-col gap-1 lg:gap-3 h-full w-full bg-[#154359] rounded-lg shadow-2xl py-6 px-5 border-[4px] border-white">
                   <div className="flex justify-between w-full">
                     <ChevronLeft name="Icone para voltar" className="cursor-pointer" />
                     <span>Preços</span>
                     <div />
                   </div>
-                  <div className="flex flex-col gap-2">
+                  <div className="flex flex-col gap-1 lg:gap-2">
                     <div className="flex gap-4 justify-center items-center">
                       <Check size={18} />
                       <span className="text-xs">Tratamento Personlizado!</span>
@@ -187,6 +212,14 @@ export function ThirdContent() {
                     <span>ou</span>
                     <span>6x de R$433,33</span>
                   </div>
+                  <a
+                    href="https://api.whatsapp.com/send?phone=5511911050123&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20quero%20adquirir%20aqui%20com%20voc%C3%AAs%C2%A0o%C2%A0plano%C2%A020!"
+                    target="_blank"
+                    className="flex justify-around text-xs lg:text-sm font-semibold text-center mt-1 lg:mt-0 py-1 lg:py-2 bg-white text-black rounded-lg items-center cursor-pointer"
+                  >
+                    <Whatsapp className="size-5" />
+                    Adquira agora!
+                  </a>
                 </div>
               }
             />
