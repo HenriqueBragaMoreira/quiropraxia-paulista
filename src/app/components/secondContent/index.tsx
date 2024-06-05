@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { WhileImageInViewAnimation, WhileInViewAnimation } from './animation';
 
 export function SecondContent() {
@@ -29,9 +30,27 @@ export function SecondContent() {
           </div>
         </WhileInViewAnimation>
         <WhileImageInViewAnimation>
-          <div className="h-64 w-56 md:h-72 md:w-[232px] lg:h-96 lg:w-80 bg-gray-500 rounded-lg shadow-2xl" />
-          <div className="h-64 w-56 md:h-72 md:w-[232px] lg:h-96 lg:w-80 bg-gray-500 rounded-lg shadow-2xl" />
-          <div className="h-64 w-56 md:h-72 md:w-[232px] lg:h-96 lg:w-80 bg-gray-500 rounded-lg shadow-2xl" />
+          <Image
+            src="/first_image.jpg"
+            alt="Recepção da clinica Quiropraxia Paulista, unidade de Pinheiros"
+            width={1000}
+            height={1000}
+            className="h-64 w-56 md:h-72 md:w-[232px] lg:h-96 lg:w-80 rounded-lg shadow-2xl"
+          />
+          <Image
+            src="/second_image.jpg"
+            alt="Foto de uma coluna de plástico em uma das salas da clinica Quiropraxia Paulista, unidade da Paulista"
+            width={1000}
+            height={1000}
+            className="h-64 w-56 md:h-72 md:w-[232px] lg:h-96 lg:w-80 rounded-lg shadow-2xl"
+          />
+          <Image
+            src="/third_image.jpg"
+            alt="Recepção da clinica Quiropraxia Paulista, unidade da Paulista"
+            width={1000}
+            height={1000}
+            className="h-64 w-56 md:h-72 md:w-[232px] lg:h-96 lg:w-80 rounded-lg shadow-2xl"
+          />
         </WhileImageInViewAnimation>
       </div>
     </div>
