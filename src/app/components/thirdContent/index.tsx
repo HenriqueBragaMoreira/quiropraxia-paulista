@@ -232,7 +232,7 @@ export function ThirdContent() {
           <InfiniteMovingCards
             className="w-full"
             items={testimonials}
-            direction="right"
+            direction="left"
             speed="slow"
           />
         </div>

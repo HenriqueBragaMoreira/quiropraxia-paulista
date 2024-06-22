@@ -32,20 +32,24 @@ export function FirstContent() {
             </div>
             <div className="flex flex-col gap-4 3xl:flex-row xl:flex-row md:flex-row 3xl:gap-10 xl:gap-10 md:gap-10">
               <a
-                href="https://www.google.com/maps/place/Quiropraxia+Paulista/@-23.568756,-46.6466063,15z/data=!4m2!3m1!1s0x0:0xe8978281b9c690cb?sa=X&ved=1t:2428&ictx=111&cshid=1717100540001437"
+                href="https://api.whatsapp.com/send?phone=5511911050123&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20minha%20consulta%20na%20Unidade%20Paulista!"
                 target="_blank"
                 className="flex gap-2 bg-[#00667F] px-4 py-2 rounded-lg items-center cursor-pointer hover:bg-[#00667F]/70 duration-500 shadow-2xl"
               >
                 <MapPin />
-                <h2 className="text-lg font-bold">Av. Paulista, 326</h2>
+                <h2 className="text-lg max-w-48 font-bold">
+                  Agende na Paulista - Av. Paulista, 326
+                </h2>
               </a>
               <a
-                href="https://www.google.com/maps/place/Quiropraxia+Paulista+-+Unidade+Pinheiros/@-23.5685772,-46.6985022,15z/data=!4m6!3m5!1s0x94ce57ce8381b367:0x1c57487f9bc0876c!8m2!3d-23.5685772!4d-46.6985022!16s%2Fg%2F11v05xv1gj?entry=ttu"
+                href="https://api.whatsapp.com/send?phone=5511911050123&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20minha%20consulta%20na%20Unidade%20Pinheiros!"
                 target="_blank"
                 className="flex gap-2 bg-[#00667F] px-4 py-2 rounded-lg items-center cursor-pointer hover:bg-[#00667F]/70 duration-500 shadow-2xl"
               >
                 <MapPin />
-                <h2 className="text-lg font-bold">Rua Pais Leme, 215</h2>
+                <h2 className="text-lg max-w-52 font-bold">
+                  Agende em Pinheiros - Rua Pais Leme, 215
+                </h2>
               </a>
             </div>
           </div>
