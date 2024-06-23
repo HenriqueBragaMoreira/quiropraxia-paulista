@@ -1,6 +1,5 @@
 import { ButtonToTop } from '@/components/buttonToTop';
 import { Footer } from '@/components/footer';
-import { WhatsappButton } from '@/components/whatsappButton';
 import { FirstContent } from './components/firstContent';
 import { FourthContent } from './components/fourthContent';
 import { SecondContent } from './components/secondContent';
@@ -14,7 +13,7 @@ export default function Home() {
       <ThirdContent />
       <FourthContent />
       <ButtonToTop />
-      <WhatsappButton />
+      {/* <WhatsappButton /> */}
       <Footer />
     </div>
   );

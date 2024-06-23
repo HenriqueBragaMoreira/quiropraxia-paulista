@@ -30,7 +30,7 @@ export function ButtonToTop() {
 
   return (
     <button
-      className={`fixed bottom-[104px] right-[20px] md:bottom-[116px] md:right-12 bg-white rounded-full p-4 hover:bg-white/60 ease-in duration-200 transition-opacity ${
+      className={`fixed bottom-8 right-[20px] md:right-12 bg-white rounded-full p-4 hover:bg-white/60 ease-in duration-200 transition-opacity ${
         visible ? 'opacity-100' : 'opacity-0'
       }`}
       title="Botão para o topo da página"
