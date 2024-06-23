@@ -1,7 +1,6 @@
-import { Facebook, Instagram, Tiktok, Youtube } from '@/components/icon/brands/index';
+import { Facebook, Instagram, Tiktok, Whatsapp, Youtube } from '@/components/icon/brands/index';
 import { Logo } from '@/components/icon/logo';
 import { NavbarContainer } from '@/components/navbar/navbarContainer';
-import { MapPin } from 'lucide-react';
 import { LogoAnimation, MainTextAnimation, NavbarAnimation, NetworkAnimation } from './animation';
 
 export function FirstContent() {
@@ -36,7 +35,9 @@ export function FirstContent() {
                 target="_blank"
                 className="flex gap-2 bg-[#00667F] px-4 py-2 rounded-lg items-center cursor-pointer hover:bg-[#00667F]/70 duration-500 shadow-2xl"
               >
-                <MapPin />
+                <span className="bg-white p-2 rounded-full">
+                  <Whatsapp className="size-6" />
+                </span>
                 <h2 className="text-lg max-w-48 font-bold">
                   Agende na Paulista - Av. Paulista, 326
                 </h2>
@@ -46,7 +47,9 @@ export function FirstContent() {
                 target="_blank"
                 className="flex gap-2 bg-[#00667F] px-4 py-2 rounded-lg items-center cursor-pointer hover:bg-[#00667F]/70 duration-500 shadow-2xl"
               >
-                <MapPin />
+                <span className="bg-white p-2 rounded-full">
+                  <Whatsapp className="size-6" />
+                </span>
                 <h2 className="text-lg max-w-52 font-bold">
                   Agende em Pinheiros - Rua Pais Leme, 215
                 </h2>
