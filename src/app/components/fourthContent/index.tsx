@@ -63,16 +63,10 @@ export function FourthContent() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="flex gap-4">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14627.965193739386!2d-46.6466063!3d-23.568756!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ed9cca6573%3A0xe8978281b9c690cb!2sQuiropraxia%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1718017077986!5m2!1spt-BR!2sbr"
             className="h-80 md:h-96 md:w-[500px] rounded-lg"
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14627.98510747553!2d-46.6985022!3d-23.5685772!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57ce8381b367%3A0x1c57487f9bc0876c!2sQuiropraxia%20Paulista%20-%20Unidade%20Pinheiros!5e0!3m2!1spt-BR!2sbr!4v1718017399893!5m2!1spt-BR!2sbr"
-            className="h-80 w-[350px] md:h-96 md:w-[500px] rounded-lg"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />

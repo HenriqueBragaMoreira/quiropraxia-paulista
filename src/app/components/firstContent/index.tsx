@@ -42,18 +42,6 @@ export function FirstContent() {
                   Agende na Paulista - Av. Paulista, 326
                 </h2>
               </a>
-              <a
-                href="https://api.whatsapp.com/send?phone=5511911050123&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20minha%20consulta%20na%20Unidade%20Pinheiros!"
-                target="_blank"
-                className="flex gap-2 bg-[#00667F] px-4 py-2 rounded-lg items-center cursor-pointer hover:bg-[#00667F]/70 duration-500 shadow-2xl"
-              >
-                <span className="bg-white p-2 rounded-full">
-                  <Whatsapp className="size-6" />
-                </span>
-                <h2 className="text-lg max-w-52 font-bold">
-                  Agende em Pinheiros - Rua Pais Leme, 215
-                </h2>
-              </a>
             </div>
           </div>
         </MainTextAnimation>
